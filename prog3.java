@@ -1,11 +1,13 @@
+import java.util.*;
 public class prog3 {
 	public static void main(String[] args){
-		int a=1;
-		int b=2;
-		int c=3;
-		int d=4;
-		int e=5;
-		int op=4;
+		Scanner sc= new Scanner(System.in);
+		int a=sc.nextInt();
+		int b=sc.nextInt();
+		int c=sc.nextInt();
+		int d=sc.nextInt();
+		int e=sc.nextInt();
+		int op=sc.nextInt();
 		switch(op){
 		case 1:System.out.print(a);
 			break;
