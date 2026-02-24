@@ -1,0 +1,16 @@
+# Ignore build output
+/build/
+
+# Ignore temporary files
+*.log
+*.tmp
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/project settings
+.vscode/
+.idea/
+*.iml
+.class
