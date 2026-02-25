@@ -2,7 +2,7 @@ import java.util.*;
 public class prog3 {
 	public static void main(String[] args){
 		Scanner sc= new Scanner(System.in);
-		int a=70;
+		int a=sc.nextInt();
 		
 		switch(a/10){
 		case 10:System.out.print("A");
