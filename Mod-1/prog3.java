@@ -2,24 +2,24 @@ import java.util.*;
 public class prog3 {
 	public static void main(String[] args){
 		Scanner sc= new Scanner(System.in);
-		int a=sc.nextInt();
-		int b=sc.nextInt();
-		int c=sc.nextInt();
-		int d=sc.nextInt();
-		int e=sc.nextInt();
-		int op=sc.nextInt();
-		switch(op){
-		case 1:System.out.print(a);
+		int a=70;
+		
+		switch(a/10){
+		case 10:System.out.print("A");
 			break;
-		case 2:System.out.print(b);
+		case 9:System.out.print("A");
 			break;
-		case 3:System.out.print(c);
+		case 8:System.out.print("B");
 			break;
-		case 4:System.out.print(d);
+		case 7:System.out.print("C");
 			break;
-		case 5:System.out.print(e);
+		case 6:System.out.print("D");
 			break;
-		default:break;
+		case 5:System.out.print("E");
+			break;
+		default:
+			System.out.print("F");
+			break;
 		}
 	}
 }
