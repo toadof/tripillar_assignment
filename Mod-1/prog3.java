@@ -2,7 +2,11 @@ import java.util.*;
 public class prog3 {
 	public static void main(String[] args){
 		Scanner sc= new Scanner(System.in);
-		int a=sc.nextInt();
+		int a=101;
+		if(a>100){
+			System.out.print("0 for you");
+			System.exit(0);
+		}
 		
 		switch(a/10){
 		case 10:System.out.print("A");
